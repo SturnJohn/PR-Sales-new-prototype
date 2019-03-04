@@ -1,0 +1,36 @@
+{% extends "layout.html" %} {% block pageTitle %} Start page example {% endblock %} {% block header %} {{ govukHeader() }} {% endblock %} {% block beforeContent %}
+<div class="govuk-phase-banner">
+    <p class="govuk-phase-banner__content"><strong class="govuk-tag govuk-phase-banner__content__tag ">
+  alpha
+</strong>
+        <span class="govuk-phase-banner__text">
+      This is a new service – your
+      <a class="govuk-link" href="#">feedback</a> will help us to improve it.
+    </span>
+    </p>
+</div>
+
+
+{% endblock %} {% block content %}
+<div class="govuk-!-margin-top-6 govuk-grid-row">
+    <div class="govuk-!-margin-bottom-8 govuk-grid-column-one-half">
+
+        <h2 class="govuk-heading-l">Search for a personalised registration number</h2>
+
+        <p>Try searching by typing in the box. You can search <br>for absolutely anything.</p>
+
+     
+
+    </div>
+
+    <div class="govuk-grid-column-one-half">
+
+                <h2 class="govuk-heading-l">Help me search for a registration number</h2>
+
+        <p>We will ask you a number of questions to help you <br>in searching for a personalised registation number.</p>
+        
+            
+
+    </div>
+</div>
+{% endblock %}
