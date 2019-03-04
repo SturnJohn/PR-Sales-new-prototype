@@ -1,0 +1,87 @@
+{% extends "layout.html" %} {% block pageTitle %} Start page example {% endblock %} {% block header %}
+<!-- Blank header with no service name for the start page -->
+{{ govukHeader() }} {% endblock %} {% block beforeContent %}
+<div class="govuk-phase-banner">
+    <p class="govuk-phase-banner__content"><strong class="govuk-tag govuk-phase-banner__content__tag ">
+  alpha
+</strong>
+        <span class="govuk-phase-banner__text">
+      This is a new service – your
+      <a class="govuk-link" href="#">feedback</a> will help us to improve it.
+    </span>
+    </p>
+</div>
+<div class="govuk-breadcrumbs">
+    <ol class="govuk-breadcrumbs__list">
+        <li class="govuk-breadcrumbs__list-item">
+            <a class="govuk-breadcrumbs__link" href="https://www.gov.uk">Home</a>
+        </li>
+        <li class="govuk-breadcrumbs__list-item">
+            <a class="govuk-breadcrumbs__link" href="#">Driving and transport</a>
+        </li>
+        <li class="govuk-breadcrumbs__list-item">
+            <a class="govuk-breadcrumbs__link">Number plates, vehicle registration and log books </a>
+        </li>
+    </ol>
+</div>
+{% endblock %} {% block content %}
+<div class="govuk-grid-row">
+    <div class="govuk-!-margin-bottom-8 govuk-grid-column-two-thirds">
+
+        <h1 class="govuk-heading-xl">
+            {% if serviceName %} {{ serviceName }} {% endif %}
+        </h1>
+
+        <p>You can buy a personalised registration for your vehicle from DVLA online <br>or at auction.</p>
+
+        <p>Search online to see which numbers are available and how much they cost.</p>
+
+        <p><a href="#">Tell me more about personalised registrations</a>.</p>
+
+        <div class="govuk-inset-text">
+            <p>This page is also available in Welsh <a href="#">(Cymraeg)</a>.</p>
+        </div>
+
+
+
+
+
+        <a href="#" role="button" class="govuk-button govuk-button--start govuk-!-margin-top-2 govuk-!-margin-bottom-8">Start now</a>
+
+        <h2 class="govuk-heading-m">Before you start</h2>
+
+        <p>You’ll need an email address and a debit or credit card to use this service.</p>
+
+
+    </div>
+
+    <div class="govuk-grid-column-one-third">
+
+        <aside class="app-related-items" role="complementary">
+            <h2 class="govuk-heading-m" id="subsection-title">
+                Driving and transport
+            </h2>
+            <nav role="navigation" aria-labelledby="subsection-title">
+                <ul class="govuk-list govuk-!-font-size-16">
+                    <li>
+                        <a href="#">
+                Private (personalised) number
+              </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                Registration number auctions
+              </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                Private sales
+              </a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+    </div>
+</div>
+{% endblock %}
