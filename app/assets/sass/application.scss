@@ -12,6 +12,10 @@ $govuk-global-styles: true;
 // Components that aren't in Frontend
 @import "components/cookie-banner";
 
+@import "measurements";
+
+
+
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
 
 
@@ -44,4 +48,236 @@ $govuk-global-styles: true;
     width: 70%;
     min-width: 300px;
     padding: 0;
+    float: right;
+}
+
+.sort {
+    display: inline-block;
+    margin-left: 120px;
+}
+
+.price-sort {
+    width: 238px;
+    margin-left: 120px;
+}
+
+.toolbar-view-options {
+    float: right;
+    margin-top: -4px;
+}
+
+.list-icon {
+    height: 25px;
+    width: 25px;
+    background-image: url("/public/images/list-icon.svg");
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 8px;
+
+}
+
+.grid-icon {
+    height: 25px;
+    width: 25px;
+    background-image: url("/public/images/grid-icon.svg");
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 8px;
+    
+}
+
+.in-focus {
+    display: inline-block;
+    border: 3px solid #FFBF47;
+    padding: 6px 6px 4px 6px;
+}
+
+.reg-icon-1 {
+    height: 70px;
+    width: 219px;
+    background-size: 100%;
+    background-position: center;
+    border-style: none;
+    background-image: url("/public/images/reg-icon-1.svg");
+    background-repeat: no-repeat;
+}
+
+.reg-icon-2 {
+    height: 70px;
+    width: 219px;
+    background-size: 100%;
+    background-position: center;
+    border-style: none;
+    background-image: url("/public/images/reg-icon-2.svg");
+    background-repeat: no-repeat;
+}
+
+.reg-icon-2-big {
+    height: 100px;
+    width: 333px;
+    background-size: 100%;
+    background-position: center;
+    border-style: none;
+    background-image: url("/public/images/reg-icon-2.svg");
+    background-repeat: no-repeat;
+}
+
+.reg-icon-2-medium {
+    height: 40px;
+    width: 138px;
+    background-size: 100%;
+    background-position: center;
+    background-image: url("/public/images/reg-icon-2.svg");
+    background-repeat: no-repeat;
+}
+
+.reg-icon-3 {
+    height: 70px;
+    width: 219px;
+    background-size: 100%;
+    background-position: center;
+    border-style: none;
+    background-image: url("/public/images/reg-icon-3.svg");
+    background-repeat: no-repeat;
+}
+
+.reg-icon-4 {
+    height: 70px;
+    width: 219px;
+    background-size: 100%;
+    background-position: center;
+    border-style: none;
+    background-image: url("/public/images/reg-icon-4.svg");
+    background-repeat: no-repeat;
+}
+
+.reg-icon-5 {
+    height: 70px;
+    width: 219px;
+    background-size: 100%;
+    background-position: center;
+    border-style: none;
+    background-image: url("/public/images/reg-icon-5.svg");
+    background-repeat: no-repeat;
+}
+
+.reg-icon-6 {
+    height: 70px;
+    width: 219px;
+    background-size: 100%;
+    background-position: center;
+    border-style: none;
+    background-image: url("/public/images/reg-icon-6.svg");
+    background-repeat: no-repeat;
+}
+
+.reg-icon-7 {
+    height: 70px;
+    width: 219px;
+    background-size: 100%;
+    background-position: center;
+    border-style: none;
+    background-image: url("/public/images/reg-icon-7.svg");
+    background-repeat: no-repeat;
+}
+
+.reg-icon-8 {
+    height: 70px;
+    width: 219px;
+    background-size: 100%;
+    background-position: center;
+    border-style: none;
+    background-image: url("/public/images/reg-icon-8.svg");
+    background-repeat: no-repeat;
+}
+
+.reg-icon-9 {
+    height: 70px;
+    width: 219px;
+    background-size: 100%;
+    background-position: center;
+    border-style: none;
+    background-image: url("/public/images/reg-icon-9.svg");
+    background-repeat: no-repeat;
+}
+
+.reg-icon-10 {
+    height: 70px;
+    width: 219px;
+    background-size: 100%;
+    background-position: center;
+    border-style: none;
+    background-image: url("/public/images/reg-icon-10.svg");
+    background-repeat: no-repeat;
+}
+
+.reg-icon-11 {
+    height: 70px;
+    width: 219px;
+    background-size: 100%;
+    background-position: center;
+    border-style: none;
+    background-image: url("/public/images/reg-icon-11.svg");
+    background-repeat: no-repeat;
+}
+
+.reg-icon-12 {
+    height: 70px;
+    width: 219px;
+    background-size: 100%;
+    background-position: center;
+    border-style: none;
+    background-image: url("/public/images/reg-icon-12.svg");
+    background-repeat: no-repeat;
+}
+
+.reg-icon-13 {
+    height: 70px;
+    width: 219px;
+    background-size: 100%;
+    background-position: center;
+    border-style: none;
+    background-image: url("/public/images/reg-icon-13.svg");
+    background-repeat: no-repeat;
+}
+
+.reg-icon-14 {
+    height: 70px;
+    width: 219px;
+    background-size: 100%;
+    background-position: center;
+    border-style: none;
+    background-image: url("/public/images/reg-icon-14.svg");
+    background-repeat: no-repeat;
+}
+
+.reg-icon-15 {
+    height: 70px;
+    width: 219px;
+    background-size: 100%;
+    background-position: center;
+    border-style: none;
+    background-image: url("/public/images/reg-icon-15.svg");
+    background-repeat: no-repeat;
+}
+
+.reg-icon-16 {
+    height: 70px;
+    width: 219px;
+    background-size: 100%;
+    background-position: center;
+    border-style: none;
+    background-image: url("/public/images/reg-icon-16.svg");
+    background-repeat: no-repeat;
+}
+
+.show-more {
+    width: 180px;
+    text-align: center;
+}
+
+.button-container {
+    text-align: center;
 }

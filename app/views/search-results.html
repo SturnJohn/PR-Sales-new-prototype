@@ -1,0 +1,182 @@
+{% extends "layout.html" %} {% block pageTitle %} Question page {% endblock %} {% block beforeContent %} {% endblock %} {% block content %}
+
+<div class="govuk-grid-row">
+    <div class="govuk-grid-column-one-half">
+
+        <h1 class="govuk-!-margin-bottom-1 govuk-heading-xl">
+            Search results
+        </h1>
+    </div>
+
+    <div class="govuk-grid-column-one-half">
+
+        <div class="search-container">
+            <input class="search-field form-control" id="ni-number" type="text" name="ni-number">
+            <input class="search-box" id="search" type="button" name="search">
+        </div>
+    </div>
+</div>
+
+<div class="govuk-grid-row">
+
+
+
+    <div class="govuk-!-margin-top-8 govuk-!-margin-right-6 govuk-grid-column-full">
+        <span class="govuk-body">We have found 16 results for <strong class="bold-small">Joe Smith</strong>
+        </span>
+
+        <span class="govuk-!-margin-left-3 govuk-form-group">
+
+        <select class="price-sort govuk-select" id="sort" name="sort">
+    <option value="published"selected>Sort by</option>
+    <option value="updated">Price (Low to High)</option>
+    <option value="views">Price (High to Low)</option>
+  </select>
+    </span>
+
+        <div class="govuk-!-margin-top-0 toolbar-view-options">
+            <span class="govuk-!-margin-right-2 govuk-body">View</span>
+
+            <div class="inline-block">
+                <span class="govuk-body">List</span>
+                <div class="govuk-!-margin-right-2 list-icon"></div>
+            </div>
+
+            <div class="govuk-!-margin-left-1 in-focus inline-block">
+                <span class="govuk-body">Grid</span>
+                <div class="grid-icon"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="govuk-!-margin-top-3 govuk-grid-column-full">
+        <hr>
+    </div>
+
+    <div class="govuk-!-margin-top-3 govuk-grid-column-one-quarter">
+        <div class="govuk-!-margin-bottom-0 reg-icon-1">
+        </div>
+        <h3 class="inline-block govuk-!-margin-top-1 govuk-heading-m">£6,250</h3>
+        <a href="#" class="govuk-!-margin-top-2 float-right govuk-link">View</a>
+    </div>
+
+    <div class="govuk-!-margin-top-3 govuk-grid-column-one-quarter">
+        <div class="govuk-!-margin-bottom-0 reg-icon-2">
+        </div>
+        <h3 class="inline-block govuk-!-margin-top-1 govuk-heading-m">£2,700</h3>
+        <a href="#" class="govuk-!-margin-top-2 float-right govuk-link">View</a>
+    </div>
+
+    <div class="govuk-!-margin-top-3 govuk-grid-column-one-quarter">
+        <div class="govuk-!-margin-bottom-0 reg-icon-3">
+        </div>
+        <h3 class="inline-block govuk-!-margin-top-1 govuk-heading-m">££2,195</h3>
+        <a href="#" class="govuk-!-margin-top-2 float-right govuk-link">View</a>
+    </div>
+
+    <div class="govuk-!-margin-top-3 govuk-grid-column-one-quarter">
+        <div class="govuk-!-margin-bottom-0 reg-icon-4">
+        </div>
+        <h3 class="inline-block govuk-!-margin-top-1 govuk-heading-m">£1,700</h3>
+        <a href="#" class="govuk-!-margin-top-2 float-right govuk-link">View</a>
+    </div>
+
+    <div class="govuk-!-margin-top-3 govuk-grid-column-one-quarter">
+        <div class="govuk-!-margin-bottom-0 reg-icon-5">
+        </div>
+        <h3 class="inline-block govuk-!-margin-top-1 govuk-heading-m">£1,245</h3>
+        <a href="#" class="govuk-!-margin-top-2 float-right govuk-link">View</a>
+    </div>
+
+    <div class="govuk-!-margin-top-3 govuk-grid-column-one-quarter">
+        <div class="govuk-!-margin-bottom-0 reg-icon-6">
+        </div>
+        <h3 class="inline-block govuk-!-margin-top-1 govuk-heading-m">£870</h3>
+        <a href="#" class="govuk-!-margin-top-2 float-right govuk-link">View</a>
+    </div>
+
+    <div class="govuk-!-margin-top-3 govuk-grid-column-one-quarter">
+        <div class="govuk-!-margin-bottom-0 reg-icon-7">
+        </div>
+        <h3 class="inline-block govuk-!-margin-top-1 govuk-heading-m">£870</h3>
+        <a href="#" class="govuk-!-margin-top-2 float-right govuk-link">View</a>
+    </div>
+
+    <div class="govuk-!-margin-top-3 govuk-grid-column-one-quarter">
+        <div class="govuk-!-margin-bottom-0 reg-icon-8">
+        </div>
+        <h3 class="inline-block govuk-!-margin-top-1 govuk-heading-m">£795</h3>
+        <a href="#" class="govuk-!-margin-top-2 float-right govuk-link">View</a>
+    </div>
+
+    <div class="govuk-!-margin-top-3 govuk-grid-column-one-quarter">
+        <div class="govuk-!-margin-bottom-0 reg-icon-9">
+        </div>
+        <h3 class="inline-block govuk-!-margin-top-1 govuk-heading-m">£580</h3>
+        <a href="#" class="govuk-!-margin-top-2 float-right govuk-link">View</a>
+    </div>
+
+    <div class="govuk-!-margin-top-3 govuk-grid-column-one-quarter">
+        <div class="govuk-!-margin-bottom-0 reg-icon-10">
+        </div>
+        <h3 class="inline-block govuk-!-margin-top-1 govuk-heading-m">£565</h3>
+        <a href="#" class="govuk-!-margin-top-2 float-right govuk-link">View</a>
+    </div>
+
+    <div class="govuk-!-margin-top-3 govuk-grid-column-one-quarter">
+        <div class="govuk-!-margin-bottom-0 reg-icon-11">
+        </div>
+        <h3 class="inline-block govuk-!-margin-top-1 govuk-heading-m">£499</h3>
+        <a href="#" class="govuk-!-margin-top-2 float-right govuk-link">View</a>
+    </div>
+
+    <div class="govuk-!-margin-top-3 govuk-grid-column-one-quarter">
+        <div class="govuk-!-margin-bottom-0 reg-icon-12">
+        </div>
+        <h3 class="inline-block govuk-!-margin-top-1 govuk-heading-m">£499</h3>
+        <a href="#" class="govuk-!-margin-top-2 float-right govuk-link">View</a>
+    </div>
+
+    <div class="govuk-!-margin-top-3 govuk-grid-column-one-quarter">
+        <div class="govuk-!-margin-bottom-0 reg-icon-13">
+        </div>
+        <h3 class="inline-block govuk-!-margin-top-1 govuk-heading-m">£399</h3>
+        <a href="#" class="govuk-!-margin-top-2 float-right govuk-link">View</a>
+    </div>
+
+    <div class="govuk-!-margin-top-3 govuk-grid-column-one-quarter">
+        <div class="govuk-!-margin-bottom-0 reg-icon-14">
+        </div>
+        <h3 class="inline-block govuk-!-margin-top-1 govuk-heading-m">£399</h3>
+        <a href="#" class="govuk-!-margin-top-2 float-right govuk-link">View</a>
+    </div>
+
+    <div class="govuk-!-margin-top-3 govuk-grid-column-one-quarter">
+        <div class="govuk-!-margin-bottom-0 reg-icon-15">
+        </div>
+        <h3 class="inline-block govuk-!-margin-top-1 govuk-heading-m">£195</h3>
+        <a href="#" class="govuk-!-margin-top-2 float-right govuk-link">View</a>
+    </div>
+
+    <div class="govuk-!-margin-top-3 govuk-grid-column-one-quarter">
+        <div class="govuk-!-margin-bottom-0 reg-icon-16">
+        </div>
+        <h3 class="inline-block govuk-!-margin-top-1 govuk-heading-m">£195</h3>
+        <a href="#" class="govuk-!-margin-top-2 float-right govuk-link">View</a>
+    </div>
+
+
+    <div class="button-container govuk-!-margin-top-8 govuk-grid-column-full">
+        <div>
+            <button class="show-more margin-top-3 govuk-button" type="submit">Show more</button>
+        </div>
+    </div>
+
+
+
+</div>
+
+
+
+
+{% endblock %}
