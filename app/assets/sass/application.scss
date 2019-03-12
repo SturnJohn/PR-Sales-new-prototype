@@ -13,3 +13,35 @@ $govuk-global-styles: true;
 @import "components/cookie-banner";
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
+
+
+.search-field {
+    border: #005EA5 4px solid;
+    height: 60px;
+    width: 100%;
+    box-shadow: 0 2px 0 #003618;
+    padding: 0;
+    margin: 0;
+}
+
+.search-box {
+    height: 65px;
+    width: 65px;
+    background-color: #005EA5;
+    background-image: url("/public/images/magnifying glass.svg");
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: center;
+    border-style: none;
+    position: absolute;
+    top: 0;
+    left: 265px;
+    padding: 0;
+}
+
+.search-container {
+    position: relative;
+    width: 70%;
+    min-width: 300px;
+    padding: 0;
+}
