@@ -13,32 +13,23 @@
 
 {% endblock %} {% block content %}
 <div class="govuk-!-margin-top-6 govuk-grid-row">
-    <div class="govuk-!-margin-bottom-8 govuk-grid-column-one-half">
 
-        <h2 class="govuk-heading-l">Search for a personalised registration number</h2>
+    <div class="govuk-grid-column-full">
+        <h1 class="govuk-!-margin-bottom-5 govuk-heading-xl">Search for a registration number</h1>
+    </div>
 
-        <p>Try searching by typing in the box. You can search <br>for absolutely anything.</p>
-
-        <div class="govuk-!-margin-top-8 form-group">
-            <div class="search-container">
+    <div class="govuk-grid-column-two-thirds">
+        <p>You can search by using a combination of letters and numbers. Try searching for <strong>names</strong>, <strong>initials</strong>, <strong>favourite sports</strong>, <strong>hobbies</strong> or even a <strong>memorable date</strong>.</p>
+    </div>
+    
+    <div class="govuk-!-margin-bottom-9 govuk-grid-column-one-half">
+        <div class="govuk-!-margin-top-4 form-group">
+            <div class="search-container-1">
                 <input class="search-field" id="ni-number" type="text" name="ni-number">
                 <button class="search-box button" role="button"></button>
             </div>
         </div>
     </div>
-
-
-    <div class="govuk-grid-column-one-half">
-
-        <h2 class="govuk-heading-l">Help me search for a registration number</h2>
-
-        <p class="govuk-!-margin-bottom-8">We will ask you a number of questions to help you <br>in searching for a personalised registation number.</p>
-
-        <button type="submit" class="govuk-button">Begin the search</button>
-
-
-    </div>
-
 </div>
 
 {% endblock %}
