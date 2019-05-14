@@ -43,12 +43,20 @@ $govuk-global-styles: true;
     padding: 0;
 }
 
-.search-container-1 {
+.search-container {
     position: relative;
     width: 70%;
     min-width: 300px;
     padding: 0;
     float: left;
+}
+
+.search-container-results {
+    position: relative;
+    width: 70%;
+    min-width: 300px;
+    padding: 0;
+    float: right;
 }
 
 .sort {

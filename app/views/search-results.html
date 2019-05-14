@@ -1,7 +1,7 @@
 {% extends "layout.html" %} {% block pageTitle %} Question page {% endblock %} {% block beforeContent %} {% endblock %} {% block content %}
 
 <div class="govuk-grid-row">
-    <div class="govuk-grid-column-one-half">
+    <div class="govuk-!-margin-top-4 govuk-grid-column-one-half">
 
         <h1 class="govuk-!-margin-bottom-1 govuk-heading-xl">
             Search results
@@ -10,29 +10,45 @@
 
     <div class="govuk-grid-column-one-half">
 
-        <div class="search-container">
-            <input class="search-field form-control" id="ni-number" type="text" name="ni-number">
-            <input class="search-box" id="search" type="button" name="search">
+        <div class="govuk-!-margin-top-4 search-container-results">
+            <input class="search-field" id="ni-number" type="text" name="ni-number">
+            <button class="search-box button" role="button"></button>
         </div>
     </div>
 </div>
 
-<div class="govuk-grid-row">
+<div class="govuk-!-margin-top-6 govuk-grid-row">
 
 
 
-    <div class="govuk-!-margin-top-8 govuk-!-margin-right-6 govuk-grid-column-full">
+    <div class="govuk-!-margin-top-4 govuk-!-margin-bottom-2 govuk-grid-column-full">
         <span class="govuk-body">We have found 16 results for <strong class="bold-small">Joe Smith</strong>
         </span>
+    </div>
 
+
+
+    <div class="govuk-!-margin-top-4 govuk-grid-column-full">
+        <span class="govuk-!-margin-top-6">
+            <p class="govuk-label" for="sort">
+    Sort by
+  </p>
+            <select class="govuk-select" id="sort" name="sort">
+    <option value="updated" selected>Relevance</option>
+    <option value="views">Price (Low to High)</option>
+    <option value="comments">Price (High to Low</option>
+  </select>
+        </span>
+
+        <!--
         <span class="govuk-!-margin-left-3 govuk-form-group">
-
         <select class="price-sort govuk-select" id="sort" name="sort">
-    <option value="published"selected>Sort by</option>
+    <option value="published"selected>Relevance</option>
     <option value="updated">Price (Low to High)</option>
     <option value="views">Price (High to Low)</option>
   </select>
     </span>
+-->
 
         <div class="govuk-!-margin-top-0 toolbar-view-options">
             <span class="govuk-!-margin-right-2 govuk-body">View</span>
